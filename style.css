@@ -18,7 +18,7 @@ body {
 h2 {
     text-align: center;
     margin-bottom: 30px;
-    color: #007bff; /* Blue color for headings */
+    color: #000000; /* Blue color for headings */
 }
 
 .form-group {
@@ -97,4 +97,21 @@ textarea {
 input[type="submit"] {
     width: auto;
     margin-top: 10px;
+}
+
+.container img {
+    filter: invert(1);
+    max-width: 200px; /* Adjust the maximum width as needed */
+    max-height: 100px; /* Adjust the maximum height as needed */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
