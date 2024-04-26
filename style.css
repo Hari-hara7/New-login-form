@@ -76,3 +76,25 @@ button[type="submit"]:hover {
         font-size: 14px;
     }
 }
+
+
+form {
+    max-width: 600px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+textarea {
+    height: 100px; /* Adjust the height as needed */
+}
+
+input[type="submit"] {
+    width: auto;
+    margin-top: 10px;
+}
